@@ -42,7 +42,12 @@ i{
 }
 #sidebar-wrapper .sidebar-link{
     border-radius: 10px;
-    margin:0px 10px 10px 10px;
+    height:70vh;
+    margin:0px 10px;
+    overflow-y: scroll !important;
+}
+#sidebar-wrapper .sidebar-link::-webkit-scrollbar{
+    width:0;
 }
 #sidebar-wrapper .dropdown{
     padding:0 !important;
