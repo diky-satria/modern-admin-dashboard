@@ -53,8 +53,8 @@ i{
     padding:0 !important;
 }
 #sidebar-wrapper .list-group{
-    padding:15px;
-    margin-top:20px;
+    padding:0 15px;
+    margin:20px 0;
 }
 #sidebar-wrapper .list-group-item{
     background-color: transparent;
@@ -150,6 +150,9 @@ i{
     }
     #sidebar-wrapper.toggled-sidebar{
         left:0;
+    }
+    #sidebar-wrapper .sidebar-link{
+        height:50vh;
     }
     /* akhir sidebar */
 
