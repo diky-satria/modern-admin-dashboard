@@ -152,7 +152,7 @@ i{
         left:0;
     }
     #sidebar-wrapper .sidebar-link{
-        height:50vh;
+        height:60vh;
     }
     /* akhir sidebar */
 
@@ -191,3 +191,13 @@ i{
     }
 }
 /* akhir tablet */
+
+/* handphone */
+@media(max-width:576px){
+    /* sidebar */
+    #sidebar-wrapper .sidebar-link{
+        height:50vh;
+    }
+    /* akhir sidebar */
+}
+/* akhir handphone */
