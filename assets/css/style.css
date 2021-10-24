@@ -62,6 +62,9 @@ i{
     cursor: pointer;
     margin-bottom:5px;
 }
+#sidebar-wrapper .list-group-item .collapse li a:hover{
+    background-color: transparent;
+}
 #sidebar-wrapper .list-group-item.active{
     color: black;
     box-shadow: inset 3px 3px 3px rgb(206, 206, 206),
@@ -126,14 +129,20 @@ i{
 }
 #wrapper i{
     font-size:40px;
-    padding:0 7px;
-    border-radius: 50%;
+    height:100px !important;
+    width:100px !important;
 }
 .judul-halaman{
     margin-bottom:15px;
 }
 .card-item{
     margin-top:10px;
+    align-items: center;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+.card-item:hover{
+    transform: scale(1.1);
 }
 .count-card{
     font-weight: bold;
@@ -144,6 +153,13 @@ i{
 
 
 /* responsive breakpoint */
+
+/* laptop */
+@media(max-width:992px){
+    /* konten */
+    /* akhir konten */
+}
+/* akhir laptop */
 
 /* tablet */
 @media(max-width:768px){
@@ -187,6 +203,7 @@ i{
     }
     /* akhir navbar */
 
+    /* konten */
     #wrapper{
         width:100%;
         transform: translateX(0);
@@ -196,6 +213,7 @@ i{
         width:calc(100% - 250px);
         transform: translateX(250px) !important;
     }
+    /* akhir konten */
 }
 /* akhir tablet */
 
